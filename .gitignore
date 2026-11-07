@@ -1,0 +1,36 @@
+# Android/Gradle generated
+.gradle/
+.gradle-home/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+*.hprof
+
+# IDE
+.idea/
+*.ipr
+*.iws
+
+# Secrets and signing
+android/keystore/
+android/keystore.properties
+*.jks
+*.keystore
+!android/app/debug.keystore
+
+# Dependencies and old scaffolding
+node_modules/
+.rn-ui-backup/
+
+# Release artifacts
+*.apk
+*.aab
+
+# Logs and temp files
+*.log
+*.pid
+.DS_Store
